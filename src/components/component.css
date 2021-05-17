@@ -1,0 +1,10 @@
+.nav{
+    height: 60px;
+    border-bottom: 0.5px solid grey;
+}
+button {
+    border: none;
+}
+td{
+    cursor: pointer;
+}
