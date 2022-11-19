@@ -37,7 +37,7 @@ export class Task extends Component {
                         <td><button onClick={this.handleClick}>🖊</button></td>
                         <td><button onClick={this.saveChanges}>⤵</button></td>
                         <td className="check"><Check checked={this.props.task.checked} onClick={() => this.handleCheck(this.props.task)}/></td>
-                        <td onClick={() => this.handleRemove(this.props.task)}>⛔</td>
+                        <td onClick={() => this.handleRemove(this.props.task)}>❎</td>
                     </tr>
                 </>
             )
